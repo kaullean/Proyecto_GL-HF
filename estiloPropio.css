@@ -158,4 +158,18 @@ body{
 	}
 
 }
-
+.guia{
+	background: rgba(24,18,30,0.5);
+}
+.guia a{
+	text-decoration: none;
+}
+.guia__titulo{
+	text-align: center;
+	font-size: 1.3em;
+	color:#A84B43;
+}
+.guia__titulo small{
+	font-size: 0.5em;
+	color: #AAC67A;
+}
