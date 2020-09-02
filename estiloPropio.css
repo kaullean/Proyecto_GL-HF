@@ -173,3 +173,10 @@ body{
 	font-size: 0.5em;
 	color: #AAC67A;
 }
+.cabeceraGuias{
+	background-image: url(imagenes/fondoGuias.jpg);
+	background-size: cover;
+	height: 40vw;
+	color: white;
+	text-align: center;
+}
