@@ -180,3 +180,14 @@ body{
 	color: white;
 	text-align: center;
 }
+.review h3{
+	font-size: 1.3em;
+	color:#18121E;
+}
+.review p{
+	font-size: 1em;
+	color:#18121E;
+}
+.review{
+	background: rgba(234, 198,122,0.3);
+}
