@@ -13,8 +13,8 @@
 
 		<div class="container-fluid p-0">
 
-			<nav class="navbar navbar-expand-md navbar-dark menu--fondo justify-content-arround p-1 m-0 b-0">
-				<a class="col-10 col-md-3 d-flex flex-nowarp menu__logo--estilo navbar-brand text-decoration-none align-items-center justify-content-center m-0 p-0" href="#">
+			<nav class="navbar navbar-expand-md navbar-dark menuHeader justify-content-arround p-1 m-0 b-0">
+				<a class="col-10 col-md-3 d-flex flex-nowarp menuHeader__logo navbar-brand text-decoration-none align-items-center justify-content-center m-0 p-0" href="#">
 				    <img class="col-3" src="imagenes/navbarLogoImagen.png" class="d-inline-block align-top" alt="" loading="lazy">
 				    <h2 class="text-center">GL & HF</h2>
 				</a>
@@ -24,8 +24,9 @@
 	  				</button>
 	  			</div>
 				
-				<div class="col-md-9 p-0 menu__navbar collapse navbar-collapse " id="navbarTogglerDemo01">
-					<div class="menu__opciones container col-12 navbar-nav justify-content-beetwen p-0">
+				<div class="col-md-9 p-0 collapse navbar-collapse " id="navbarTogglerDemo01">
+					<div class="menuheader__opciones container col-12 navbar-nav justify-content-beetwen p-0">
+						<a class="btn btn-sm animated-button victoria-one col-12 col-md-2" href="index.html">NOTICIAS</a>
 					    <a class="btn btn-sm animated-button victoria-one col-12 col-md-2" href="e-sport.html">E-SPORTS</a>
 					    <a class="btn btn-sm animated-button victoria-one col-12 col-md-2" href="guias.html">GUIAS</a>
 					    <a class="btn btn-sm animated-button victoria-one col-12 col-md-2" href="reviews.html">REVIEWS</a>
@@ -35,38 +36,33 @@
 			</nav><!--HEADER-->
 		</div>
 
-		<div class="seccion container col-12 col-md-10 p-0">
-			<div class="seccion__noticia row m-0 p-0"><!--Fila contenedora de articulo-->
-				<div class="cabeceraIndex col-12">
-					<h2 class="p-2">Ultimos enfrentamientos en el mundo competitivo.</h2>
+		<div class="container col-12 col-md-10 p-0">
+			<div class="row m-0 p-0"><!--Fila contenedora de articulo-->
+				
+				<div class="row cabeceraIndex col-12 m-0 align-items-center">
+					<h2 class="p-2 text-center">Las ultimas noticias sobre videojuegos<h2>
 				</div>				
 				
-				<div class="container col-12"><!--Noticia-->
+				<div class="container col-12">
 					<div class="row noticia">
-						<a class="col-12 justify-content-center align-items-center"  href="#"><!--La tarjeta de leandrodie95	lnoticia es un link a la noticia-->
-							<h2><b>Dragon Ball Z- Ya`puedes comprar la espada de Trunks a un modico Precio</b></h2><!--Titulo de noticia+fecha en small-->
+						<a class="col-12 justify-content-center align-items-center"  href="#">
+							<h2><b>Word of Warcraft Classic estara disponible pronto</b></h2>
 							<button class="bg-dark col-3 navbar-toggler btn btn-primary p-0" type="button" data-toggle="collapse" data-target="#parrafoNoticia1" aria-controls="parrafoNoticia1" aria-expanded="false" ><small>Ver Mas</small></button>
-							
-
-							
-							<!--Breve descripcion de la noticia-->
 						</a>
 
 					</div>
 					<p class="parrafoNoticia collapse navbar-collapse p-2 m-0" id="parrafoNoticia1">Mañana comenzará una nueva prueba de estrés de WoW Classic, por lo que los jugadores con una suscripción activa al juego podrán probar, durante 48 horas, esta versión clásica. <a href="">Ir a la nota</a></p>
 
 					<div class="row noticia">
-						<a class="col-12 justify-content-center align-items-center"  href="#"><!--La tarjeta de leandrodie95	lnoticia es un link a la noticia-->
-							<h2><b>Dragon Ball Z- Ya`puedes comprar la espada de Trunks a un modico Precio</b></h2><!--Titulo de noticia+fecha en small-->
-							<button class="bg-dark col-3 navbar-toggler btn btn-primary p-0 type="button" data-toggle="collapse" data-target="#parrafoNoticia2" aria-controls="parrafoNoticia2" aria-expanded="false" ><small>Ver Mas</small></button>
-							
-
-							
-							<!--Breve descripcion de la noticia-->
+						<a class="col-12 justify-content-center align-items-center" href="#">
+							<h2><b>Word of Warcraft Classic estara disponible pronto</b></h2>
+							<button class="bg-dark col-3 navbar-toggler btn btn-primary p-0" type= "button" data-toggle="collapse" data-target="#parrafoNoticia2" aria-controls="parrafoNoticia2" aria-expanded="false" ><small>Ver Mas</small></button>							
 						</a>
 
 					</div>
+
 					<p class="parrafoNoticia collapse navbar-collapse m-0" id="parrafoNoticia2">Mañana comenzará una nueva prueba de estrés de WoW Classic, por lo que los jugadores con una suscripción activa al juego podrán probar, durante 48 horas, esta versión clásica. <a href="">Ir a la nota</a></p>
+
 				</div>
 			</div>			
 
@@ -75,7 +71,7 @@
 		<div class="container-fluid col-12">
 			<div class="footer row justify-content-center p-3">
 				<div class="col-12">
-					<a class="col-10 col-md-3 d-flex flex-nowarp menu__logo--estilo navbar-brand text-decoration-none align-items-center justify-content-center m-0 p-0" href="#">
+					<a class="col-10 col-md-3 d-flex flex-nowarp footer__logo navbar-brand text-decoration-none align-items-center justify-content-center m-0 p-0" href="#">
 				    <img class="col-3" src="imagenes/navbarLogoImagenBlanco.png" class="d-inline-block align-top" alt="" loading="lazy">
 				    <h2 class="text-center">GL & HF</h2>
 				</a>
